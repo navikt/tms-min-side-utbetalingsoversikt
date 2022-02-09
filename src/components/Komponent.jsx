@@ -6,7 +6,7 @@ const Komponent = ({ tekst }) => {
   return (
     <div className="komponent">
       <Panel>
-        <p>{tekst}</p>
+        <p>{tekst} Hello world</p>
       </Panel>
     </div>
   );
