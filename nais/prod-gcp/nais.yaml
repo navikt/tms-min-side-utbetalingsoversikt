@@ -8,7 +8,7 @@ metadata:
 spec:
   envFrom:
     - secret: tms-min-side-utbetalingsoversikt-secrets
-  image: { { version } }
+  image: {{version}}
   port: 7400
   liveness:
     path: /tms-min-side-utbetalingsoversikt/internal/isAlive
